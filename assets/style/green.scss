@@ -1,0 +1,136 @@
+@import "mixin";
+
+
+header{
+    .container{
+        select{
+            background-color: $theme2!important;
+        }
+
+       
+        span{
+            color: $theme2!important;
+        }
+    }
+}
+
+main{
+    .entrance{
+        .label{
+            background-color: $theme2!important;
+        }
+
+        button{
+            background-color: $theme2!important;
+        }
+
+        .background-container--red{
+            background-color: $theme2!important;
+        }
+    }
+
+    .topplaces{
+        h4{
+            &::before{
+                background-color: $theme2!important;
+            }
+        }
+
+        .swiper-button-next1{
+            background-image: url("../images/topplaces/See\ More\ \(1\)green.png")!important;
+        }
+
+        .content{
+            background-color: $theme2!important;
+        }
+
+        .book{
+            color: $theme2!important;
+        }
+
+    }
+
+    .booking{
+        button{
+            background-color: $theme2!important;
+        }
+
+        h3{
+            &::before{
+                background-color: $theme2!important;
+            }
+        }
+
+        select{
+            background-image: url("../images/booking/Vector\ 1green.png") !important;
+        }
+    }
+
+    .services{
+        h4{
+            &::before{
+                background-color: $theme2!important;
+            }
+        }
+
+        .container{
+            .table{
+                h5{
+                    &::before{
+                        background-image: url("../images/green_services/tablearr.png") !important;
+                    }
+                    &::after{
+                        background-image: url("../images/green_services/foodrec.png") !important;
+                    }
+                }
+            }
+
+            .food{
+                h5{
+                    &::before{
+                        background-image: url("../images/green_services/foodrect.png") !important;
+                    }
+                    &::after{
+                        background-image: url("../images/green_services/foodarr.png") !important;
+                    }
+                }
+            }
+
+            .delivery{
+                p{
+                    &::after{
+                        background-color: $theme2!important;
+                    }
+                }
+            }
+        }
+    }
+
+    .products{
+        .card{
+            span{
+                color: $theme2!important;
+            }
+        }
+    }
+
+    .advertisement{
+        .left{
+            .content{
+                h4{
+                    &::before{
+                        background-color: $theme2!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    .main-content{
+        button{
+            background-color: $theme2!important;
+        }
+    }
+}

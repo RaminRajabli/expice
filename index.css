@@ -1,0 +1,3204 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+  header .menu_icon {
+    display: block !important;
+    z-index: 1000;
+  }
+  header .menu_icon .line {
+    fill: white;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  header .line-change {
+    fill: #2e266f !important;
+  }
+  header .navbar-user {
+    display: none !important;
+  }
+  header .navbar-menu {
+    display: none !important;
+  }
+  .entrance .container {
+    z-index: 3;
+    margin-bottom: 130px;
+  }
+  .entrance .container h1 {
+    font-size: 90px !important;
+    line-height: 100px !important;
+  }
+  .entrance .container h3 {
+    font-size: 34px !important;
+    line-height: 40px !important;
+  }
+  .entrance .container .input input {
+    width: 300px !important;
+    height: 40px !important;
+    margin-top: 10px !important;
+    padding-left: 20px !important;
+  }
+  .entrance .container .input input::-webkit-input-placeholder {
+    font-size: 14px !important;
+    line-height: 35px !important;
+  }
+  .entrance .container .input input:-ms-input-placeholder {
+    font-size: 14px !important;
+    line-height: 35px !important;
+  }
+  .entrance .container .input input::-ms-input-placeholder {
+    font-size: 14px !important;
+    line-height: 35px !important;
+  }
+  .entrance .container .input input::placeholder {
+    font-size: 14px !important;
+    line-height: 35px !important;
+  }
+  .entrance .container .input button {
+    width: 70px !important;
+    height: 30px !important;
+    top: 15px !important;
+    left: 225px !important;
+  }
+  .entrance .ellipse {
+    right: 200px !important;
+    height: 170px !important;
+    top: 145px !important;
+  }
+  .entrance .background-container--red {
+    width: 200px !important;
+  }
+  .entrance .background-container--swiper {
+    width: 400px !important;
+    height: 600px !important;
+    right: 20px !important;
+  }
+  .entrance .background-container--swiper .lettuce {
+    top: -85px !important;
+  }
+  .entrance .background-container--swiper .lettuce figure {
+    width: 300px !important;
+  }
+  .entrance .background-container--swiper .swiper-button-next {
+    top: 500px !important;
+  }
+  .entrance .background-container--swiper .swiper-button-prev {
+    top: 500px !important;
+    left: 300px !important;
+  }
+  .topplaces .container .introduction h4 {
+    font-size: 22px !important;
+  }
+  .topplaces .container .introduction p {
+    padding-top: 60px !important;
+    width: 100% !important;
+  }
+  .topplaces .container .swiper-button-next1 {
+    width: 75px !important;
+    top: 380px !important;
+    left: 680px !important;
+  }
+  .topplaces .container-slider {
+    width: 630px !important;
+  }
+  .topplaces .container-slider .horizontal {
+    left: 635px !important;
+    bottom: 70px !important;
+  }
+  .topplaces .container-slider .vertical2 {
+    left: 475px !important;
+    bottom: 35px !important;
+  }
+  .topplaces .container-slider .vertical1 {
+    bottom: 375px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide {
+    width: 300px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide figure {
+    width: 300px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .content {
+    width: 300px !important;
+    padding: 20px 95px 20px 30px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .content h5 {
+    font-size: 18px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .content p {
+    font-size: 8px !important;
+    line-height: 14px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .book {
+    left: 201.63px !important;
+    padding: 8px 25px !important;
+    font-size: 10px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card {
+    width: 100% !important;
+    margin-left: 0px !important;
+    padding-left: 150px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card input {
+    font-size: 10px !important;
+    width: 340px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card button {
+    font-size: 16px !important;
+    width: 70px !important;
+    left: 265px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card h3 {
+    font-size: 26px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card h3::before {
+    width: 180px !important;
+  }
+  .booking .container .lettuce-wrapper .firstimg {
+    width: 200px !important;
+    height: 700px !important;
+    top: -137px !important;
+    left: -30px !important;
+  }
+  .booking .container .lettuce-wrapper .firstimg img {
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  .booking .container .lettuce-wrapper .vertical1 {
+    left: 50px !important;
+  }
+  .booking .container .right-lettuce-wrapper figure {
+    width: 150px !important;
+  }
+  .services .container-services {
+    padding: 30px 50px !important;
+  }
+  .services .container .table .pic {
+    width: 170px !important;
+    height: 180px !important;
+  }
+  .services .container .table .content h5::before {
+    left: -95px !important;
+    background-size: 80px !important;
+  }
+  .services .container .food .pic {
+    width: 170px !important;
+    height: 180px !important;
+  }
+  .services .container .food .content h5::before {
+    background-size: 60px !important;
+  }
+  .services .container .food .content h5::after {
+    background-size: 90px !important;
+  }
+  .services .container .container-service-wrapper {
+    width: 38% !important;
+    height: 360px !important;
+  }
+  .products .introduction {
+    width: 65% !important;
+  }
+  .advertisement h4 {
+    font-size: 34px !important;
+  }
+  .advertisement .right {
+    position: absolute;
+    right: 230px;
+    position: relative;
+    width: 250px !important;
+    background-size: 300px !important;
+    background-position-x: 130px !important;
+    background-position-y: 50px;
+  }
+  .advertisement .right .phone {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 160px;
+    background-image: url("./assets/images/advertisement/lettuce.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position-x: 40px;
+    background-position-y: 140px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .menu_icon {
+    display: block !important;
+  }
+  header .navbar-user {
+    display: none !important;
+  }
+  header .navbar-menu {
+    display: none !important;
+  }
+  .entrance {
+    height: 580px !important;
+  }
+  .entrance .container {
+    margin-bottom: 130px;
+    width: 50% !important;
+    padding-top: 80px !important;
+  }
+  .entrance .container-label .label {
+    bottom: 100px !important;
+  }
+  .entrance .ellipse {
+    right: 0px !important;
+    width: 620px !important;
+    height: 150px !important;
+    top: 55px !important;
+  }
+  .entrance .background-container--red {
+    width: 190px !important;
+  }
+  .entrance .background-container--swiper {
+    width: 340px !important;
+    height: 650px !important;
+    right: 30px !important;
+    padding-top: 95px !important;
+  }
+  .entrance .background-container--swiper .lettuce {
+    top: -45px !important;
+    right: 102px !important;
+  }
+  .entrance .background-container--swiper .lettuce figure {
+    width: 150px !important;
+  }
+  .entrance .background-container--swiper .swiper-button-next {
+    top: 500px !important;
+    right: 30px !important;
+  }
+  .entrance .background-container--swiper .swiper-button-prev {
+    top: 500px !important;
+    left: 220px !important;
+  }
+  .topplaces .container .swiper-button-next1 {
+    width: 75px !important;
+    top: 380px !important;
+    left: 550px !important;
+  }
+  .topplaces .container-slider {
+    width: 530px !important;
+  }
+  .topplaces .container-slider .horizontal {
+    left: 535px !important;
+    bottom: 70px !important;
+  }
+  .topplaces .container-slider .vertical2 {
+    left: 375px !important;
+    bottom: 35px !important;
+  }
+  .topplaces .container-slider .vertical1 {
+    bottom: 335px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper {
+    padding-left: 40px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide {
+    width: 260px !important;
+    margin-right: 10px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide figure {
+    width: 260px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .content {
+    width: 260px !important;
+    padding: 20px 95px 20px 10px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .content h5 {
+    font-size: 18px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .content p {
+    font-size: 8px !important;
+    line-height: 14px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .book {
+    left: 161.63px !important;
+    padding: 8px 25px !important;
+    font-size: 10px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card {
+    width: 100% !important;
+    margin-left: 0px !important;
+    padding-left: 150px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card input {
+    font-size: 10px !important;
+    width: 340px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card button {
+    font-size: 16px !important;
+    width: 70px !important;
+    left: 265px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card h3 {
+    font-size: 26px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card h3::before {
+    width: 180px !important;
+  }
+  .booking .container .lettuce-wrapper .firstimg {
+    width: 200px !important;
+    height: 700px !important;
+    top: -137px !important;
+    left: -30px !important;
+  }
+  .booking .container .lettuce-wrapper .firstimg img {
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  .booking .container .lettuce-wrapper .vertical1 {
+    left: 50px !important;
+  }
+  .booking .container .right-lettuce-wrapper figure {
+    width: 150px !important;
+  }
+  .services-introduction p {
+    width: 60% !important;
+    padding-right: 0 !important;
+  }
+  .services .container-services {
+    padding: 30px 0px !important;
+  }
+  .services .container .table .pic {
+    width: 170px !important;
+    height: 180px !important;
+  }
+  .services .container .table .content {
+    padding: 0 !important;
+    left: 250px !important;
+  }
+  .services .container .table .content h5::after {
+    width: 60px !important;
+  }
+  .services .container .table .content h5::before {
+    left: -95px !important;
+    background-size: 80px !important;
+  }
+  .services .container .food .pic {
+    width: 170px !important;
+    height: 180px !important;
+  }
+  .services .container .food .content {
+    left: -250px !important;
+  }
+  .services .container .food .content h5::before {
+    background-size: 60px !important;
+  }
+  .services .container .food .content h5::after {
+    background-size: 90px !important;
+  }
+  .services .container .container-service-wrapper {
+    width: 38% !important;
+    height: 360px !important;
+  }
+  .products .introduction {
+    width: 65% !important;
+  }
+  .products .card {
+    width: 49% !important;
+  }
+  .advertisement h4 {
+    font-size: 34px !important;
+  }
+  .advertisement .right {
+    position: absolute;
+    right: 230px;
+    position: relative;
+    width: 250px !important;
+    background-size: 300px !important;
+    background-position-x: 130px !important;
+    background-position-y: 50px;
+  }
+  .advertisement .right .phone {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 160px;
+    background-image: url("./assets/images/advertisement/lettuce.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position-x: 40px;
+    background-position-y: 140px;
+  }
+  footer .container {
+    background-size: 480px;
+    background-position-y: 0px !important;
+    padding-top: 0px !important;
+  }
+  footer .container .plant figure {
+    width: 420px !important;
+    position: relative;
+  }
+  footer .container .plant figure img {
+    position: absolute;
+    left: -120px;
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  footer .container .main-content h5 {
+    width: 90% !important;
+  }
+  footer .container .main-content p {
+    width: 90% !important;
+  }
+  footer .container .main-content .input {
+    margin: 10px 0 !important;
+  }
+  footer .container .contact {
+    right: 30px !important;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .entrance {
+    height: 550px !important;
+  }
+  .entrance .container {
+    margin-bottom: 130px;
+    width: 40% !important;
+    padding-top: 80px !important;
+  }
+  .entrance .container-label .label {
+    bottom: 100px !important;
+  }
+  .entrance .ellipse {
+    right: 0px !important;
+    width: 520px !important;
+    height: 90px !important;
+    top: 55px !important;
+  }
+  .entrance .background-container--red {
+    width: 190px !important;
+  }
+  .entrance .background-container--swiper {
+    width: 240px !important;
+    height: 650px !important;
+    right: 80px !important;
+    padding-top: 95px !important;
+  }
+  .entrance .background-container--swiper .lettuce {
+    top: -45px !important;
+    right: 32px !important;
+  }
+  .entrance .background-container--swiper .lettuce figure {
+    width: 150px !important;
+  }
+  .entrance .background-container--swiper .swiper-button-next {
+    top: 480px !important;
+    right: 0px !important;
+  }
+  .entrance .background-container--swiper .swiper-button-prev {
+    top: 480px !important;
+    left: 150px !important;
+  }
+  .topplaces .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .topplaces .container .introduction {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .topplaces .container .introduction div {
+    width: 100% !important;
+  }
+  .topplaces .container .introduction h4 {
+    margin: 0 !important;
+  }
+  .topplaces .container .introduction p {
+    padding-top: 10px !important;
+  }
+  .topplaces .container .swiper-button-next1 {
+    width: 75px !important;
+    top: auto !important;
+    bottom: -60px !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+  }
+  .topplaces .container-slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 100% !important;
+    padding: 30px 0 !important;
+    margin-right: 50px !important;
+  }
+  .topplaces .container-slider .horizontal {
+    left: auto !important;
+    right: 0% !important;
+    bottom: 70px !important;
+  }
+  .topplaces .container-slider .vertical2 {
+    left: auto !important;
+    right: 0px !important;
+    bottom: 20px !important;
+  }
+  .topplaces .container-slider .vertical1 {
+    bottom: 720px !important;
+  }
+  .topplaces .container .swiper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .topplaces .container .swiper .swiper-wrapper {
+    height: 700px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide {
+    width: 100% !important;
+    height: 48% !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide figure {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .content {
+    width: 100% !important;
+    bottom: 0 !important;
+    padding: 20px 95px 20px 10px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .content h5 {
+    font-size: 18px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .content p {
+    font-size: 8px !important;
+    line-height: 14px !important;
+  }
+  .topplaces .container .swiper .swiper-wrapper .swiper-slide .book {
+    padding: 8px 0px !important;
+    left: 80% !important;
+    padding: 8px 45px 8px 20px !important;
+    font-size: 10px !important;
+  }
+  .booking .container {
+    height: 550px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card {
+    width: 100% !important;
+    margin-left: 0px !important;
+    padding-left: 100px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card input {
+    font-size: 10px !important;
+    width: 180px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card button {
+    font-size: 12px !important;
+    width: 40px !important;
+    left: 135px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card h3 {
+    font-size: 18px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card h3::before {
+    width: 140px !important;
+  }
+  .booking .container .lettuce-wrapper .firstimg {
+    width: 250px !important;
+    height: 750px !important;
+    top: -242px !important;
+    left: -115px !important;
+    overflow: hidden;
+  }
+  .booking .container .lettuce-wrapper .firstimg img {
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  .booking .container .lettuce-wrapper .vertical1 {
+    left: 50px !important;
+  }
+  .booking .container .selection-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .booking .container .selection-part .select {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .booking .container .selection-part .select:not(:last-child) {
+    padding-right: 5px !important;
+  }
+  .booking .container .selection-part .select:first-child select {
+    background-position-x: 25px !important;
+  }
+  .booking .container .selection-part .select:nth-child(2) select {
+    background-position-x: 27px !important;
+  }
+  .booking .container .selection-part .select:nth-child(3) select {
+    background-position-x: 35px !important;
+  }
+  .booking .container .selection-part .select label {
+    font-size: 10px !important;
+    line-height: 0px;
+  }
+  .booking .container .selection-part .select select {
+    font-size: 10px !important;
+    line-height: 10px;
+    padding-top: 30px;
+    /* or 187% */
+  }
+  .booking .container .right-lettuce-wrapper {
+    z-index: 1;
+    bottom: 10px;
+  }
+  .booking .container .right-lettuce-wrapper figure {
+    width: 90px !important;
+    height: 130px !important;
+  }
+  .services {
+    padding-top: 50px !important;
+  }
+  .services-introduction {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .services-introduction p {
+    width: 100% !important;
+    padding-right: 0 !important;
+  }
+  .services .container-services {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .services .container-services-wrapper {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .services .container .table .pic {
+    width: 150px !important;
+    height: 140px !important;
+  }
+  .services .container .table .content h5::before {
+    left: -95px !important;
+    background-size: 80px !important;
+  }
+  .services .container .food .pic {
+    width: 150px !important;
+    height: 140px !important;
+  }
+  .services .container .food .content h5::before {
+    background-size: 60px !important;
+  }
+  .services .container .food .content h5::after {
+    background-size: 90px !important;
+  }
+  .services .container .container-service-wrapper {
+    width: 340px !important;
+    height: 360px !important;
+    margin-top: 30px;
+  }
+  .products .introduction {
+    width: 65% !important;
+  }
+  .products .card {
+    width: 100% !important;
+    margin-top: 20px !important;
+  }
+  .advertisement h4 {
+    font-size: 34px !important;
+  }
+  .advertisement .containers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .advertisement .left .content {
+    width: 100% !important;
+  }
+  .advertisement .right {
+    position: absolute;
+    right: 230px;
+    position: relative;
+    width: 250px !important;
+    background-size: 300px !important;
+    background-position-x: 130px !important;
+    background-position-y: 50px;
+  }
+  .advertisement .right .phone {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 160px;
+    background-image: url("./assets/images/advertisement/lettuce.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position-x: 40px;
+    background-position-y: 140px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  header .navbar-logo span {
+    font-size: 37px !important;
+  }
+  .entrance {
+    height: 950px !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+  .entrance .background-container {
+    width: 95% !important;
+  }
+  .entrance .container {
+    margin-bottom: 130px;
+    padding-right: 100px !important;
+    width: 100% !important;
+    padding-top: 80px !important;
+  }
+  .entrance .container-label .label {
+    top: 420px !important;
+  }
+  .entrance .container .main-content--input .input input {
+    width: 300px !important;
+    height: 60px !important;
+  }
+  .entrance .container .main-content--input .input button {
+    width: 90px !important;
+    height: 48px !important;
+    left: 200px !important;
+  }
+  .entrance .ellipse {
+    right: 0px !important;
+    width: 500px !important;
+    height: 160px !important;
+    top: 475px !important;
+  }
+  .entrance .background-container--red {
+    width: 175px !important;
+  }
+  .entrance .background-container--swiper {
+    width: 320px !important;
+    height: 570px !important;
+    right: 30px !important;
+    bottom: 210px !important;
+  }
+  .entrance .background-container--swiper figure {
+    width: 320px !important;
+    height: 440px !important;
+  }
+  .entrance .background-container--swiper figure img {
+    -o-object-fit: contain !important;
+       object-fit: contain !important;
+  }
+  .entrance .background-container--swiper .lettuce {
+    top: -15px !important;
+    right: 20px !important;
+  }
+  .entrance .background-container--swiper .lettuce figure {
+    width: 150px !important;
+    height: 100% !important;
+  }
+  .entrance .background-container--swiper .swiper-button-next {
+    top: 525px !important;
+    right: 0px !important;
+  }
+  .entrance .background-container--swiper .swiper-button-prev {
+    top: 525px !important;
+    left: 235px !important;
+  }
+  .entrance .label {
+    width: 130px !important;
+  }
+  .booking .container {
+    height: 550px !important;
+    position: relative;
+  }
+  .booking .container .lettuce-wrapper .booking-card {
+    width: 88% !important;
+    margin-left: 0px !important;
+    padding-left: 100px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card input {
+    font-size: 10px !important;
+    width: 180px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card button {
+    font-size: 12px !important;
+    width: 40px !important;
+    left: 135px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card h3 {
+    font-size: 18px !important;
+  }
+  .booking .container .lettuce-wrapper .booking-card h3::before {
+    width: 140px !important;
+  }
+  .booking .container .lettuce-wrapper .firstimg {
+    width: 210px !important;
+    height: 750px !important;
+    top: -242px !important;
+    left: -115px !important;
+    overflow: hidden;
+  }
+  .booking .container .lettuce-wrapper .firstimg img {
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  .booking .container .lettuce-wrapper .vertical1 {
+    left: 50px !important;
+  }
+  .booking .container .selection-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .booking .container .selection-part .select {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .booking .container .selection-part .select:not(:last-child) {
+    padding-right: 5px !important;
+  }
+  .booking .container .selection-part .select:first-child select {
+    background-position-x: 25px !important;
+  }
+  .booking .container .selection-part .select:nth-child(2) select {
+    background-position-x: 27px !important;
+  }
+  .booking .container .selection-part .select:nth-child(3) select {
+    background-position-x: 35px !important;
+  }
+  .booking .container .selection-part .select label {
+    font-size: 10px !important;
+    line-height: 0px;
+  }
+  .booking .container .selection-part .select select {
+    font-size: 10px !important;
+    line-height: 10px;
+    padding-top: 30px;
+    /* or 187% */
+  }
+  .booking .container .right-lettuce-wrapper {
+    z-index: 100000;
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+  }
+  .booking .container .right-lettuce-wrapper figure {
+    width: 90px !important;
+    height: 130px !important;
+  }
+  .services-introduction {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .services-introduction p {
+    width: 100% !important;
+    padding-right: 0 !important;
+  }
+  .services .container {
+    padding: 0 !important;
+  }
+  .services .container-services {
+    padding: 0px 0px !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100% !important;
+  }
+  .services .container-services-wrapper {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services .container .table {
+    width: 100% !important;
+    height: 140px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 70px;
+  }
+  .services .container .table .pic {
+    width: 150px !important;
+  }
+  .services .container .table .content {
+    padding: 0 !important;
+    right: 0px !important;
+  }
+  .services .container .table .content h5::after {
+    width: 60px !important;
+  }
+  .services .container .table .content h5::before {
+    left: -50px !important;
+    background-size: 50px !important;
+  }
+  .services .container .food {
+    width: 100% !important;
+  }
+  .services .container .food .pic {
+    width: 150px !important;
+    height: 140px !important;
+  }
+  .services .container .food .content h5::before {
+    background-size: 60px !important;
+  }
+  .services .container .food .content h5::after {
+    left: 170px !important;
+    background-size: 70px !important;
+  }
+  .services .container .container-service-wrapper {
+    width: 100% !important;
+    height: 360px !important;
+    margin-top: 30px;
+  }
+  footer .container {
+    background-size: 300px;
+    background-position-y: 0px !important;
+    padding-top: 0px !important;
+  }
+  footer .container .plant figure {
+    width: 320px !important;
+    position: relative;
+  }
+  footer .container .plant figure img {
+    position: absolute;
+    left: -120px;
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  footer .container .main-content h5 {
+    width: 90% !important;
+  }
+  footer .container .main-content p {
+    width: 90% !important;
+  }
+  footer .container .main-content .input {
+    margin: 10px 0 !important;
+  }
+  footer .container .main-content .input input {
+    width: 280px !important;
+  }
+  footer .container .main-content .input button {
+    left: 225px !important;
+  }
+  footer .container .contact {
+    right: 30px !important;
+  }
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+
+header .navbar-menu_list--phone {
+  position: absolute;
+  top: 0px;
+  z-index: 4;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  background-color: rgba(255, 237, 222, 0.99);
+}
+
+header .navbar-menu_list--phone li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+header .navbar-menu_list--phone a {
+  color: #2E266F;
+  font-size: 28px;
+  line-height: 44px;
+  letter-spacing: .2px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+header .navbar-menu_list--phone--show {
+  left: 0 !important;
+}
+
+header .container {
+  height: 100px;
+  position: relative;
+  margin: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .navbar-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .container .navbar-user select {
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  padding-right: 15px;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-style: normal;
+  color: #FFFFFF;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: url("./assets/images/icons/Vector (1).svg") no-repeat right;
+  background-position-x: 95%;
+  background-size: 10px;
+  -webkit-appearance: none;
+  background-color: #fe043c;
+}
+
+header .container .menu_icon {
+  display: none;
+}
+
+header .container .navbar {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .navbar-logo {
+  padding-right: 10%;
+}
+
+header .container .navbar-logo span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height */
+  text-align: center;
+  color: #fe043c;
+  background-color: #fff5ec !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .container .navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5px;
+}
+
+header .container .navbar-menu--lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .navbar-menu--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+header .container .navbar-menu--list:not(:last-child) {
+  margin-right: 20px;
+}
+
+header .container .navbar-menu--list a {
+  position: relative;
+  text-decoration: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding: 8px 12px;
+}
+
+header .container .navbar-menu--list a::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #2e266f;
+  z-index: -1;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+header .container .navbar-menu--list a:hover {
+  color: #fff5ec;
+}
+
+header .container .navbar-menu--list a:hover::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+body {
+  width: 100%;
+}
+
+main .entrance {
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  background-color: #fff5ec;
+  padding-left: 5%;
+}
+
+main .entrance .container {
+  padding: 0px 0 10%;
+  width: 45%;
+}
+
+main .entrance .container h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 125px;
+  line-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2E266F;
+  opacity: 0.05;
+}
+
+main .entrance .container h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 50px;
+  /* or 125% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+}
+
+main .entrance .container-label .label {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 0;
+  bottom: 150px;
+  width: 170px;
+  height: 40px;
+  background-color: #fe043c;
+  border-radius: 0 40px 40px 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .entrance .container-label .label p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  /* or 300% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+main .entrance .container .main-content--input .input {
+  position: relative;
+}
+
+main .entrance .container .main-content--input .input input {
+  width: 420px;
+  height: 60px;
+  outline: none;
+  border: none;
+  padding: 10px 30px 10px 40px;
+  margin-top: 30px;
+}
+
+main .entrance .container .main-content--input .input input::-webkit-input-placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 50px;
+  /* or 500% */
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+  opacity: 0.6;
+}
+
+main .entrance .container .main-content--input .input input:-ms-input-placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 50px;
+  /* or 500% */
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+  opacity: 0.6;
+}
+
+main .entrance .container .main-content--input .input input::-ms-input-placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 50px;
+  /* or 500% */
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+  opacity: 0.6;
+}
+
+main .entrance .container .main-content--input .input input::placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 50px;
+  /* or 500% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+  opacity: 0.6;
+}
+
+main .entrance .container .main-content--input .input button {
+  position: absolute;
+  z-index: 1;
+  top: 35px;
+  left: 290px;
+  outline: none;
+  border: none;
+  border-radius: 45px 0 0 0;
+  width: 120px;
+  height: 48px;
+  cursor: pointer;
+  background-color: #fe043c;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 90px;
+  /* or 300% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #FFFFFF !important;
+}
+
+main .entrance .background-container .background-container--swiper {
+  position: relative;
+  width: 450px;
+  height: 700px;
+  right: 100px;
+  padding-top: 100px;
+}
+
+main .entrance .background-container .background-container--swiper figure {
+  width: 100%;
+  height: 100%;
+}
+
+main .entrance .background-container .background-container--swiper figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .entrance .background-container .background-container--swiper .lettuce {
+  position: absolute;
+  z-index: -1;
+  top: -100px;
+  right: 0px;
+}
+
+main .entrance .background-container .background-container--swiper .lettuce figure {
+  width: 370px;
+}
+
+main .entrance .background-container .background-container--swiper .lettuce figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .entrance .background-container .background-container--swiper .swiper-button-next {
+  position: absolute;
+  top: 575px;
+  right: 0;
+  width: 40px;
+  background-image: url("./assets/images/icons/Right carousel.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+main .entrance .background-container .background-container--swiper .swiper-button-next::after {
+  display: none;
+}
+
+main .entrance .background-container .background-container--swiper .swiper-button-prev {
+  position: absolute;
+  top: 575px;
+  left: 355px;
+  width: 40px;
+  background-image: url("./assets/images/icons/Left carousel.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+main .entrance .background-container .background-container--swiper .swiper-button-prev::after {
+  display: none;
+}
+
+main .entrance .background-container .ellipse {
+  position: absolute;
+  top: 100px;
+  right: 300px;
+  width: 240px;
+  height: 190px;
+}
+
+main .entrance .background-container .ellipse figure {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+}
+
+main .entrance .background-container .ellipse figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .entrance .background-container .background-container--red {
+  position: absolute;
+  top: 0px;
+  width: 300px;
+  height: 100%;
+  background-color: #fe043c;
+  right: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .entrance .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+main .entrance .swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+main .entrance .swiper-slide img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+main .topplaces .container {
+  position: relative;
+  background-color: #fff5ec;
+}
+
+main .topplaces .container .introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 6% 10px;
+}
+
+main .topplaces .container .introduction div {
+  width: 50%;
+}
+
+main .topplaces .container .introduction h4 {
+  margin-right: 40px;
+  position: relative;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 32px;
+  /* or 129% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+}
+
+main .topplaces .container .introduction h4::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 70px;
+  left: -20px;
+  background-color: #fe043c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .topplaces .container .introduction p {
+  width: 80%;
+  padding-top: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  /* or 171% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #707070;
+}
+
+main .topplaces .container .swiper-button-next1 {
+  position: absolute;
+  width: 95px;
+  height: 100px;
+  top: 62%;
+  left: 900px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-image: url("./assets/images/topplaces/See More.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  cursor: pointer;
+}
+
+main .topplaces .container .swiper-button-next1::after {
+  display: none;
+}
+
+main .topplaces .container-slider {
+  width: 830px;
+  padding: 70px 0;
+}
+
+main .topplaces .container-slider .horizontal {
+  position: absolute;
+  width: 30px;
+  left: 820px;
+  bottom: 100px;
+}
+
+main .topplaces .container-slider .horizontal figure {
+  width: 100%;
+  height: 100%;
+}
+
+main .topplaces .container-slider .horizontal figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .topplaces .container-slider .vertical1 {
+  position: absolute;
+  height: 30px;
+  bottom: 480px;
+}
+
+main .topplaces .container-slider .vertical1 figure {
+  width: 100%;
+  height: 100%;
+}
+
+main .topplaces .container-slider .vertical1 figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .topplaces .container-slider .vertical2 {
+  position: absolute;
+  height: 30px;
+  left: 660px;
+  bottom: 60px;
+}
+
+main .topplaces .container-slider .vertical2 figure {
+  width: 100%;
+  height: 100%;
+}
+
+main .topplaces .container-slider .vertical2 figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .topplaces .container-slider .swiper .swiper-wrapper .swiper-slide {
+  width: 400px;
+  position: relative;
+}
+
+main .topplaces .container-slider .swiper .swiper-wrapper .swiper-slide figure {
+  width: 400px;
+  height: 100%;
+}
+
+main .topplaces .container-slider .swiper .swiper-wrapper .swiper-slide figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+main .topplaces .container-slider .swiper .swiper-wrapper .swiper-slide .content {
+  width: 400px;
+  position: absolute;
+  bottom: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #FE043C;
+  opacity: 0.7;
+  border-radius: 0px 0px 20px 20px;
+  padding: 25px 95px 60px 30px;
+}
+
+main .topplaces .container-slider .swiper .swiper-wrapper .swiper-slide .content h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 100% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+main .topplaces .container-slider .swiper .swiper-wrapper .swiper-slide .content p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  /* or 171% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+main .topplaces .container-slider .swiper .swiper-wrapper .swiper-slide .content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .topplaces .container-slider .swiper .swiper-wrapper .swiper-slide .content ul .card_location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .topplaces .container-slider .swiper .swiper-wrapper .swiper-slide .content ul .card_location p {
+  margin-left: 10px;
+}
+
+main .topplaces .container-slider .swiper .swiper-wrapper .swiper-slide .book {
+  position: absolute;
+  bottom: 30px;
+  left: 261.8px;
+  background-color: white;
+  padding: 8px 40px;
+  border-radius: 20px 0 0 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: Poppins;
+  /* or 150% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #fe043c;
+}
+
+main .booking {
+  background-color: #fff5ec;
+  padding: 70px 0;
+}
+
+main .booking .container {
+  width: 100%;
+  height: 590px;
+  background-color: #ffedde;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .booking .container .lettuce-wrapper {
+  width: 100%;
+}
+
+main .booking .container .lettuce-wrapper .booking-card {
+  position: relative;
+  margin-left: 100px;
+  width: 85%;
+  height: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 200px;
+  background-color: white;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .vertical1 {
+  position: absolute;
+  height: 30px;
+  bottom: -30px;
+  left: 95px;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .vertical1 figure {
+  width: 100%;
+  height: 100%;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .vertical1 figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .vertical2 {
+  position: absolute;
+  height: 30px;
+  top: -30px;
+  right: -35px;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .vertical2 figure {
+  width: 100%;
+  height: 100%;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .vertical2 figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .horizontal {
+  position: absolute;
+  width: 30px;
+  right: -35px;
+  top: 10px;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .horizontal figure {
+  width: 100%;
+  height: 100%;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .horizontal figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .booking .container .lettuce-wrapper .booking-card ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .booking .container .lettuce-wrapper .booking-card ul .input-part {
+  position: relative;
+}
+
+main .booking .container .lettuce-wrapper .booking-card ul .input-part input {
+  outline: none;
+  border: none;
+  width: 380px;
+  height: 50px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 2px 2px 30px 2px #FFF5EC;
+          box-shadow: 2px 2px 30px 2px #FFF5EC;
+  padding: 10px 30px 10px 40px;
+  margin-bottom: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 150% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: lowercase;
+  color: #2E266F;
+  opacity: 0.6;
+}
+
+main .booking .container .lettuce-wrapper .booking-card ul .input-part button {
+  position: absolute;
+  top: 5px;
+  left: 295px;
+  outline: none;
+  border: none;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #fe043c;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 90px;
+  /* or 300% */
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #FFFFFF;
+}
+
+main .booking .container .lettuce-wrapper .booking-card h3 {
+  position: relative;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 24px;
+  /* or 67% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: lowercase;
+  color: #2E266F;
+  padding-bottom: 30px;
+}
+
+main .booking .container .lettuce-wrapper .booking-card h3::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 13px;
+  top: -40px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #fe043c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .selection-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .selection-part .select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .selection-part .select:not(:last-child) {
+  padding-right: 35px;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .selection-part .select:first-child select {
+  background-position-x: 35px;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .selection-part .select:nth-child(2) select {
+  background-position-x: 36px;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .selection-part .select:nth-child(3) select {
+  background-position-x: 47px;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .selection-part .select label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 0px;
+  font-family: Poppins;
+  /* or 187% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+}
+
+main .booking .container .lettuce-wrapper .booking-card .selection-part .select select {
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: Poppins;
+  padding-top: 30px;
+  /* or 187% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: rgba(46, 38, 111, 0.6);
+  background: url("./assets/images/booking/Vector 1.svg") no-repeat;
+  background-size: 8px;
+  -webkit-appearance: none;
+}
+
+main .booking .container .lettuce-wrapper .firstimg {
+  position: absolute;
+  width: 380px;
+  height: 590px;
+  top: -110px;
+  left: -100px;
+}
+
+main .booking .container .lettuce-wrapper .firstimg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .booking .container .right-lettuce-wrapper figure {
+  width: 230px;
+  height: 300px;
+}
+
+main .booking .container .right-lettuce-wrapper figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .services {
+  background-color: #fff5ec;
+  padding: 0 20px;
+}
+
+main .services-introduction {
+  padding: 40px 6% 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .services-introduction h4 {
+  margin-right: 40px;
+  position: relative;
+  padding-top: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 32px;
+  /* or 129% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+}
+
+main .services-introduction h4::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 90px;
+  left: -20px;
+  background-color: #fe043c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .services-introduction p {
+  width: 70%;
+  padding-top: 30px;
+  padding-right: 20%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  /* or 171% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #707070;
+}
+
+main .services .container {
+  position: relative;
+  width: 100%;
+  padding: 0 1%;
+  background: url("./assets/images/services/backdots.png") repeat;
+  background-repeat: space;
+  background-size: cover;
+}
+
+main .services .container-services {
+  width: 100%;
+  padding: 60px 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .services .container-services-wrapper {
+  width: 55%;
+}
+
+main .services .container-services-wrapper h5 {
+  width: 140px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: Poppins;
+  /* or 133% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+}
+
+main .services .container-services-wrapper p {
+  width: 150px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  font-family: Poppins;
+  /* or 171% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #707070;
+}
+
+main .services .container-services-wrapper .table {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .services .container-services-wrapper .table .pic {
+  height: 240px;
+  width: 45%;
+  background-color: #ffedde;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .services .container-services-wrapper .table figure {
+  width: 50%;
+  height: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .services .container-services-wrapper .table figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .services .container-services-wrapper .table .content {
+  padding-right: 50px;
+}
+
+main .services .container-services-wrapper .table .content h5 {
+  position: relative;
+  text-align: left;
+}
+
+main .services .container-services-wrapper .table .content h5::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 33px;
+  left: -125px;
+  background: url("./assets/images/services/table_arrow.png") no-repeat;
+  background-size: 120px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .services .container-services-wrapper .table .content h5::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 37px;
+  left: 70px;
+  background: url("./assets/images/services/table_rect.png") no-repeat;
+  background-size: 60px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .services .container-services-wrapper .food {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .services .container-services-wrapper .food .pic {
+  height: 240px;
+  width: 45%;
+  background-color: #ffedde;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 240px;
+}
+
+main .services .container-services-wrapper .food figure {
+  width: 50%;
+  height: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .services .container-services-wrapper .food figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .services .container-services-wrapper .food .content h5 {
+  position: relative;
+  left: -30px;
+  text-align: right;
+}
+
+main .services .container-services-wrapper .food .content h5::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 37px;
+  left: 32px;
+  background: url("./assets/images/services/food_rect.png") no-repeat;
+  background-size: 65px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .services .container-services-wrapper .food .content h5::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 33px;
+  left: 230px;
+  background: url("./assets/images/services/food_arrow.png") no-repeat;
+  background-size: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .services .container-services-wrapper .food .content p {
+  width: 180px;
+}
+
+main .services .container-services .container-service-wrapper {
+  background-color: #ffedde;
+  width: 40%;
+  height: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .services .container-services .container-service-wrapper .delivery {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .services .container-services .container-service-wrapper .delivery figure {
+  width: 50%;
+  height: 50%;
+  padding-bottom: 40px;
+}
+
+main .services .container-services .container-service-wrapper .delivery figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .services .container-services .container-service-wrapper .delivery .content_ {
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .services .container-services .container-service-wrapper .delivery .content_ h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 133% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2E266F;
+  padding-bottom: 10px;
+}
+
+main .services .container-services .container-service-wrapper .delivery .content_ p {
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  font-family: Poppins;
+  /* or 171% */
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #707070;
+}
+
+main .services .container-services .container-service-wrapper .delivery .content_ p::after {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 3px;
+  left: 20px;
+  bottom: -15px;
+  background-color: #fe043c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .products {
+  background-color: #fff5ec;
+}
+
+main .products .container {
+  padding: 40px 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .products .container .introduction {
+  padding-bottom: 40px;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .products .container .introduction h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 32px;
+  /* or 129% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+main .products .container .introduction p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  /* or 171% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+  color: #707070;
+}
+
+main .products .container .cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .products .container .cards .card {
+  width: 32%;
+  margin-top: 30px;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+main .products .container .cards .card figure {
+  width: 100%;
+  height: 100%;
+}
+
+main .products .container .cards .card figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0px 0px 20px 20px;
+}
+
+main .products .container .cards .card .content {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  padding: 15px 95px 0px 20px;
+}
+
+main .products .container .cards .card .content h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 5px;
+  /* or 133% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+}
+
+main .products .container .cards .card .content p {
+  height: 50px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  /* or 171% */
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #707070;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+main .products .container .cards .card .content .price span {
+  position: absolute;
+  right: 18px;
+  bottom: 60px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 133% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #fe043c;
+}
+
+main .advertisement {
+  background-color: #fff5ec;
+  padding: 50px 0 40px;
+}
+
+main .advertisement .containers {
+  background-color: #ffedde;
+  padding: 40px 6% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+main .advertisement .containers .right {
+  width: 550px;
+  padding-left: 0;
+  background-image: url("./assets/images/advertisement/Group.png");
+  background-repeat: no-repeat;
+  background-size: 370px;
+  background-position-x: 70px;
+  background-position-y: 50px;
+}
+
+main .advertisement .containers .right .phone {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 160px;
+  background-image: url("./assets/images/advertisement/lettuce.png");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position-y: 140px;
+}
+
+main .advertisement .containers .right .phone .phone_frame {
+  height: 550px;
+  padding-right: 0;
+}
+
+main .advertisement .containers .right .phone .phone_frame .frame {
+  width: 350px;
+  height: 100%;
+}
+
+main .advertisement .containers .right .phone .phone_frame .frame img {
+  width: 100%;
+  height: 100%;
+}
+
+main .advertisement .containers .right .phone .phone_product {
+  position: absolute;
+  top: 35px;
+  left: 258px;
+}
+
+main .advertisement .containers .right .phone .phone_product figure {
+  width: 212px;
+  height: 430px;
+}
+
+main .advertisement .containers .right .phone .phone_product figure img {
+  width: 100%;
+  height: 100%;
+}
+
+main .advertisement .containers .right .phone .phone_notch {
+  position: absolute;
+  top: 27px;
+  left: 323px;
+}
+
+main .advertisement .containers .right .phone .phone_notch figure {
+  width: 80px;
+}
+
+main .advertisement .containers .right .phone .phone_notch figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .advertisement .containers .left .content {
+  width: 80%;
+}
+
+main .advertisement .containers .left .content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .advertisement .containers .left .content ul h4 {
+  margin-right: 40px;
+  position: relative;
+  padding-top: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 32px;
+  /* or 129% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2E266F;
+}
+
+main .advertisement .containers .left .content ul h4::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 65px;
+  left: -20px;
+  background-color: #fe043c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .advertisement .containers .left .content ul p {
+  padding-top: 30px;
+  padding-right: 20%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  /* or 171% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #707070;
+}
+
+main .advertisement .containers .left .content ul .stores {
+  padding-top: 20px;
+}
+
+main .advertisement .containers .left .content ul .stores img {
+  width: 140px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+footer .container {
+  background-color: #fff5ec;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("./assets/images/footer/plant_background.png");
+  background-repeat: no-repeat;
+  background-size: 480px;
+  background-position-y: 52px;
+  padding-top: 30px;
+}
+
+footer .container .plant {
+  width: 25%;
+}
+
+footer .container .plant figure {
+  width: 400px;
+  height: 565px;
+}
+
+footer .container .plant figure img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .container .main-content {
+  width: 50%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .container .main-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .container .main-content ul li {
+  padding: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .container .main-content ul li h5 {
+  width: 70%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 38px;
+  /* or 133% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2E266F;
+}
+
+footer .container .main-content ul li p {
+  width: 70%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #707070;
+}
+
+footer .container .main-content ul .input {
+  margin: 30px 0;
+  position: relative;
+}
+
+footer .container .main-content ul .input input {
+  -webkit-box-shadow: 2px 2px 30px 2px #FFF5EC;
+          box-shadow: 2px 2px 30px 2px #FFF5EC;
+  border-radius: 100px;
+  outline: none;
+  width: 380px;
+  border: none;
+  height: 55px;
+  padding: 10px 30px 10px 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 150% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2E266F;
+}
+
+footer .container .main-content ul .input button {
+  position: absolute;
+  left: 325px;
+  outline: none;
+  border: none;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  background-color: #fe043c;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .main-content ul .main-content-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .container .main-content ul .main-content-list li {
+  padding: 0;
+}
+
+footer .container .main-content ul .main-content-list li:not(:last-child) {
+  padding-right: 20px;
+}
+
+footer .container .main-content ul .main-content-list li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: Poppins;
+  /* or 150% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #707070;
+}
+
+footer .container .contact {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 25px;
+  right: 100px;
+}
+
+footer .container .contact .social_media {
+  padding-right: 50px;
+}
+
+footer .container .contact .social_media ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .container .contact .social_media ul li:not(:last-child) {
+  padding-right: 10px;
+}
+
+footer .container .contact .copyright p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: Poppins;
+  line-height: 24px;
+  /* or 171% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.animate__lightSpeedInLeft {
+  --animate-repeat: 1;
+}
+/*# sourceMappingURL=index.css.map */

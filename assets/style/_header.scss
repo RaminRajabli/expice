@@ -1,0 +1,152 @@
+
+
+
+header{
+    width:100%;
+    position: absolute;
+    z-index: 10;
+
+    .navbar-menu_list--phone{
+        position: absolute;
+        top:0px;
+        z-index: 4;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.8s;
+        li{
+            &:not(:last-child){
+                margin-bottom: 30px;
+            }
+        }
+        a{
+            color: #2E266F;
+            font-size: 28px;
+            line-height: 44px;
+            letter-spacing: .2px;
+            font-family: Poppins;
+            font-weight: 500;
+        }
+        background-color: rgba(255, 237, 222,0.99);
+    }
+
+    .navbar-menu_list--phone--show{
+        left: 0!important;
+    }
+
+    .container{
+        height: 100px;
+        position: relative;
+        margin: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        
+        //header user part
+        .navbar-user{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            select{
+                outline: none;
+                border:none;
+                margin-bottom: 10px;
+                padding-right: 15px;
+                font-family: Poppins;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                font-style: normal;
+                
+                color: #FFFFFF;
+                transition: 0.5s;
+                
+                background: url("./assets/images/icons/Vector\ \(1\).svg") no-repeat right;
+                background-position-x: 95%;
+                background-size: 10px;
+                -webkit-appearance: none;  
+                
+                background-color: $theme1;
+            }
+            
+        }
+
+        .menu_icon{
+            display: none;
+        }
+        // menu list part
+        .navbar{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            // justify-content: space-between;
+            &-logo{
+                padding-right: 10%;
+                span{
+                    @include logo;
+                    background-color: rgba(255, 245, 236, 1)!important;
+                    transition: 0.5s;
+                }
+            }
+
+            &-menu{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 5px;
+                &--lists{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+                &--list{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    list-style: none;
+                    &:not(:last-child){
+                        margin-right: 20px;
+                    }
+                    a{
+                        position: relative;
+                        text-decoration: none;
+                        @include list;
+                        padding: 8px 12px;
+
+                        &::before{
+                            content: " ";
+                            display: block;
+                            position: absolute;
+                            top: 0; right: 0; bottom: 0; left: 0;
+                            inset: 0 0 0 0;
+                            background: rgba(46, 38, 111, 1);
+                            z-index: -1;
+                            transition: transform .5s ease;
+
+                            transform: scaleX(0);
+                            transform-origin: bottom right;
+                        }
+
+                        &:hover{
+                            color: $back-color2;
+                        }
+                        &:hover::before {
+                            transform: scaleX(1);
+                            transform-origin: bottom left;
+                          }
+                    }
+                }
+            }
+
+
+        }
+    }
+}

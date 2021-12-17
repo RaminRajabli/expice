@@ -1,0 +1,84 @@
+header .container select {
+  background-color: #35cd8c !important;
+}
+
+header .container span {
+  color: #35cd8c !important;
+}
+
+main .entrance .label {
+  background-color: #35cd8c !important;
+}
+
+main .entrance button {
+  background-color: #35cd8c !important;
+}
+
+main .entrance .background-container--red {
+  background-color: #35cd8c !important;
+}
+
+main .topplaces h4::before {
+  background-color: #35cd8c !important;
+}
+
+main .topplaces .swiper-button-next1 {
+  background-image: url("../images/topplaces/See More (1)green.png") !important;
+}
+
+main .topplaces .content {
+  background-color: #35cd8c !important;
+}
+
+main .topplaces .book {
+  color: #35cd8c !important;
+}
+
+main .booking button {
+  background-color: #35cd8c !important;
+}
+
+main .booking h3::before {
+  background-color: #35cd8c !important;
+}
+
+main .booking select {
+  background-image: url("../images/booking/Vector 1green.png") !important;
+}
+
+main .services h4::before {
+  background-color: #35cd8c !important;
+}
+
+main .services .container .table h5::before {
+  background-image: url("../images/green_services/tablearr.png") !important;
+}
+
+main .services .container .table h5::after {
+  background-image: url("../images/green_services/foodrec.png") !important;
+}
+
+main .services .container .food h5::before {
+  background-image: url("../images/green_services/foodrect.png") !important;
+}
+
+main .services .container .food h5::after {
+  background-image: url("../images/green_services/foodarr.png") !important;
+}
+
+main .services .container .delivery p::after {
+  background-color: #35cd8c !important;
+}
+
+main .products .card span {
+  color: #35cd8c !important;
+}
+
+main .advertisement .left .content h4::before {
+  background-color: #35cd8c !important;
+}
+
+footer .main-content button {
+  background-color: #35cd8c !important;
+}
+/*# sourceMappingURL=green.css.map */
